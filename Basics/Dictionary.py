@@ -66,5 +66,5 @@ nums.add(2)
 nums.add(4)
 print(nums)
 
-nums.pop()
+nums.pop(2)
 print(nums)
