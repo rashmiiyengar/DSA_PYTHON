@@ -1,10 +1,3 @@
-list=[1,2,3,4,5,6,7,8]
-
-count=1
-while count<=5:
-    print("hello",count)
-    count+=1
-
 count1=3
 while count1>0:
     print(count1)
@@ -42,3 +35,44 @@ while idx1 <=len(tuple1)-1:
         print(tuple1[idx1])
         print(tuple1.index(2))
     idx1+=1
+    
+#Break used to terminate the loop when encountyered
+#Continue terminates execution in the current iteration and continues execution
+#of the loop with the next iteration
+
+
+count=1
+while count<=5:
+    if(count==3):
+        count+=1
+        continue
+    print("hello",count)
+    count+=1
+
+#For loops are used for sequential traversal for trversing list,strings,tuples
+
+list=[1,2,3,4,5,6,7,8]
+tup=(2,4,6,8) #tuples
+for el in list:
+    print(el)
+
+for element in list: #optional if we want to do something when loop ends
+    print(element)
+else:
+    print("end")
+for t in tup:
+    print(t)
+    
+#Range functions returns a sequence of numbers, 
+# starting from 0 by default and increments by
+#1 (by default) and stops before a specifies number
+# range(start?,stop,step?)
+
+for el in range(len(list)):
+    print("range elements",list[el])
+
+for el in range(2,len(list)):
+    print("range elements with start stop",list[el])
+
+for el in range(2,len(list),2):
+    print("step elements",list[el])
