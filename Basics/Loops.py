@@ -76,3 +76,33 @@ for el in range(2,len(list)):
 
 for el in range(2,len(list),2):
     print("step elements",list[el])
+    
+#pass is a null statement that does nothing 
+#it is used as a placeholder for future code.
+
+for el in list:
+    pass
+print("ele passed succesful")
+
+
+#WAP to find the sum of first n natural  numbers using while
+
+n= int(input("enter the number of elements"))
+sum=0
+for el in range(1,n+1):
+    sum+=el
+    print(el)
+print(sum)
+
+
+#WAP to find the factorial of first n natural  numbers using while
+
+nums= int(input("enter the number of elements"))
+
+fact=1
+indx=1
+
+while indx<=nums:
+    fact*=indx
+    indx+=1
+print(fact)
