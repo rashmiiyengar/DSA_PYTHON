@@ -41,11 +41,30 @@ print(student)
 # each element in the set must be unique and immutable
 
 nums = {1,2,3,4}
-set2 ={1,2,2,3,3}
+set2 ={1,1,2,3,3,0}
 # Repeated elements stored only once , so it resolved to {1,2}
+#list and dictionries cannot be stored in set as both are mutable
 
+print(type(set2))
+print(set2)
+print(len(set2))
 
+emptyset=set()
+print(type(emptyset))
 
+nums.add(5) # adds an element
+print(nums)
 
+nums.remove(5) # removes an element
+print(nums)
 
+nums.clear() #empties the set
+print(nums)
  
+nums.add(5)
+nums.add(2)
+nums.add(4)
+print(nums)
+
+nums.pop()
+print(nums)
