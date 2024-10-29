@@ -66,5 +66,27 @@ nums.add(2)
 nums.add(4)
 print(nums)
 
-nums.pop(2)
-print(nums)
+
+
+collection = set()
+collection.add(1)
+collection.add(2)
+collection.add("rashmi")
+collection.add((2,2,2))
+# collection.add([2,2,2]) unhashable type
+# immutable -> hashvalue can be created only for immutable values
+# so we cant add list or dictionry to set as hashvalue is bound to change in future
+print(len(collection))
+collection1={"hello","how","Are","You","rashmi"}
+
+print("set collection is ",collection)
+collection1.pop() #retiurns the popped value
+print("set collection1 is ",collection1)
+
+collection3= collection1.union(collection) 
+print("New Union collection3 is ",collection3)
+print("collection1 is ",collection1)
+print("collection is ",collection)
+
+intersectionCollection= collection1.intersection(collection) 
+print(intersectionCollection)
