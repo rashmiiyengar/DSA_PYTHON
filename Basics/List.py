@@ -61,3 +61,44 @@ print(tuple[3])
 print(tuple.index(2)) #returns index of first occurence
 print(tuple.count(3))  #counts total occurances
 
+
+#WAP to ask the user to enter names of their 3 favourite movies and store them in a list.
+"""
+movies = input("Enter three movies of your choice: ")
+list = movies.split(' ')
+print(list)
+"""
+
+movies1 = []
+
+movie1 = input("enter movie 1")
+movie2 = input("enter movie 2")
+movie3 =input("enter movie 3")
+
+movies1.append(movie1)
+movies1.append(movie2)
+movies1.append(movie3)
+
+movies1.append(input("enter movie 4:")) # this is also valid
+print(movies1)
+
+# WAP to check if a list contains a palindrome of elements 
+
+list=[1,2,2,1]
+copiedlist= list.copy()
+copiedlist.reverse()
+print(copiedlist)
+if(list == copiedlist ):
+    print("list contains palindrome elements")
+else:
+    print("list does not contain palindrome elemnts")
+ 
+#WAP to count the number of students with the "A" grade in the following tuple.
+
+studentsGrade =["A","B","C","A","B","B","A","A","D","C"]
+print(studentsGrade.count("A"))
+ 
+ 
+#Store the above values in a list and sort them from "A" to "D"
+studentsGrade.sort()
+print(studentsGrade)
