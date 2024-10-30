@@ -1,7 +1,19 @@
-str = "This is a string"
 str1 ="This is another string"
 str2 = "This is escape sequence \n string" #next line
 str3 = "This is escape sequence \t string" #Tab 
+
+str = "madam madam"
+s=str.lower()
+print(s)
+s1=s.replace(" ","")
+print(s1)
+s2= s[::-1]
+print(s2)
+
+t=str.lower().replace(' ','')
+print(t[::-1])
+
+
 
 print(len(str))
 print(str.split(' '))

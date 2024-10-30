@@ -106,3 +106,5 @@ while indx<=nums:
     fact*=indx
     indx+=1
 print(fact)
+
+
