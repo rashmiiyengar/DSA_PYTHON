@@ -1,5 +1,5 @@
 #Dictionaries are used to store data values in key:value pairs
-# They are unordered, mutable(changable) & dont allow duplicate keys
+#They are unordered, mutable(changable) & dont allow duplicate keys
 
 dict ={
     "name":"Rashmi",
@@ -10,6 +10,12 @@ dict ={
     "tuple":("ra","sh"),
     12:1
 }
+
+str=abc
+d={
+    
+}
+
 
 dict["name"]=12
 print(dict["name"])
