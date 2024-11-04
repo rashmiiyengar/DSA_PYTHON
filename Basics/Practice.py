@@ -17,7 +17,7 @@ class Solution:
         
         return s[:i]
             
-                    
+                     
 solution = Solution()
 commanPrefix=solution.longestCommanPrefix(["flower","flow","flight"])
 print(commanPrefix)
