@@ -13,6 +13,5 @@ class Account:
         self.balance+=amount
         print("Rs.",amount,"was credited",self.balance,"is your balance")  
     
-    
 acc= Account(10000,1234)
 acc.credit(68)
