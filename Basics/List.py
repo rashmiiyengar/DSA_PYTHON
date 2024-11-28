@@ -23,33 +23,24 @@ print(marks[1:]) #is same as [1:len(marks)] [22,24,28]
 print(marks[-3:-2]) # is [22]
 
 #list methods
-
 list= [2,1,3,4]
-
 list.append(5) #adds one lement at the end
 print(list) 
-
 list.sort() #sorts in ascending order
 print(list)
-
 list.sort(reverse=True)
 print(list)
-
 list.reverse()
 print(list)
-
 list.insert(2,8)
 print(list)
-
 list.remove(4) # removes first occurance of element
 print(list)
-
 list.pop(4) #pops of the element at index
 print(list)
 
 #Tuples a built in data type that lets us create immutable sequences of values
 #immutable cant change values
-
 tuple = (2,3,4,5,3)
 tup=("hello",)
 print(type(tuple))
@@ -57,7 +48,6 @@ print(type(tup))
 print(tuple[3])
 
 #tuple methods
-
 print(tuple.index(2)) #returns index of first occurence
 print(tuple.count(3))  #counts total occurances
 

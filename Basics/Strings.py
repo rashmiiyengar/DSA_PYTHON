@@ -31,7 +31,6 @@ print(str[ :4]) # is same as str[0:4]
 print(str[-3:-2]) # i
 
 # String functions
-
 strFun= "live love laugh"
 print(strFun.capitalize()) #captitalizes 1st char
 print(strFun.endswith('gh')) #returns true if string ends with substr
