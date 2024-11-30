@@ -7,3 +7,18 @@
 #                     return True
 #         return False
 
+class Solution:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        dict={}
+        
+        for i,num in enumerate(nums):
+            if num in dict and i-dict[num]<=k:
+                return True
+            
+            dict[num]=i
+        return False
+solution = Solution()
+
+nums = [1,2,3,1]
+value=solution.containsNearbyDuplicate(nums,3)
+print(value)

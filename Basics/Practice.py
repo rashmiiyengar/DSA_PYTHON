@@ -1,23 +1,20 @@
 from typing import List
 
+
 class Solution:
-    def longestCommanPrefix(self,strs:List[str])->str:
-        min_length= float('inf')
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        index_map = {}
         
-        for s in strs:
-            if len(s) < min_length:
-                min_length = len(s)
-    
-        i=0
-        while i < min_length:
-            for s in strs:
-                if s[i]!= strs[0][i]:
-                    return s[:i]
-            i+=1
-        
-        return s[:i]
+        for i, num in enumerate(nums):
+            if num in index_map and i - index_map[num] <= k:
+                return True
             
-                     
+            index_map[num] = i
+        
+        return False
+    
 solution = Solution()
-commanPrefix=solution.longestCommanPrefix(["flower","flow","flight"])
-print(commanPrefix)
+
+nums = [1,2,3,1]
+value=solution.containsNearbyDuplicate(nums,3)
+print(value)
