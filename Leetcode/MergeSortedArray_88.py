@@ -1,9 +1,9 @@
 #Start: m + n - 1 is the starting value. 
-# The loop will begin from this value.
+#The loop will begin from this value.
 #Stop: -1 is the stopping value. 
-# The loop will end before reaching -1.
+#The loop will end before reaching -1.
 #Step: -1 is the step value. 
-# This means the loop will decrement by 1 on each iteration, moving in reverse order.
+#This means the loop will decrement by 1 on each iteration, moving in reverse order.
 
 from typing import List
 
@@ -29,3 +29,5 @@ class Solution:
         
 solution = Solution()
 solution.merge([1,2,3,0,0,0],3,[2,5,6],3)
+#Three pointer approach using z 
+#o(n+m)
