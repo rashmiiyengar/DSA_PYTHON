@@ -1,3 +1,6 @@
-str = "madama"
+s = "A!B@C#123"
 
-print(str[::-1])
+for char in s:
+    if char.isalnum():
+        print(char)
+        
