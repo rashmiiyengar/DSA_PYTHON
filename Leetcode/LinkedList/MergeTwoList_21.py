@@ -1,4 +1,5 @@
 # Definition for singly-linked list.
+from typing import Optional
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -17,10 +18,15 @@ class Solution:
                 curr.next=list2
                 curr=list2
                 list2=list2.next
-
-
+                
         curr.next = list1 if list1 else list2
 
         return d.next
         #T O(N)
         #S O(1)
+        
+solution = Solution()  
+list1 = [1,2,4] 
+list2 = [1,3,4]
+
+res=solution.mergeTwoLists(list1,list2)
