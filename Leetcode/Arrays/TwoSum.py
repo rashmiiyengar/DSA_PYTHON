@@ -9,7 +9,6 @@ class Solution:
                 return [dict[diff],i]
             dict[nums[i]]=i
 
-
 solution = Solution()
 
 nums =[2,7,11,15]
