@@ -10,7 +10,5 @@ def armstrongNumber(num):
     else:
         print(f"{num} is not an armstrong number")
 
-
-
 num=153
 armstrongNumber(num)
