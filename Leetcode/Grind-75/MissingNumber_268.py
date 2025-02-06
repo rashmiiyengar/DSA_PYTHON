@@ -8,5 +8,5 @@ class Solution:
 solution = Solution()
 
 nums =[0,3,1]
-list =solution.twoSum(nums,9)
+list =solution.missingNumber(nums)
 print(list)
