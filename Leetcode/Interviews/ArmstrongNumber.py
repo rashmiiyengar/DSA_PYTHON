@@ -12,4 +12,3 @@ def armstrongNumber(num):
 
 num=153
 armstrongNumber(num)
-

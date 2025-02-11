@@ -7,5 +7,3 @@ def swapTwoNumsWithoutThirdVar(a,b):
 
 result=swapTwoNumsWithoutThirdVar(22,45)
 print(result)
-    
-    

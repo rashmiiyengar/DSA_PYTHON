@@ -1,7 +1,6 @@
 str1 ="This is another string"
 str2 = "This is escape sequence \n string" #next line
 str3 = "This is escape sequence \t string" #Tab 
-
 str = "madam madam"
 s=str.lower()
 print(s)
@@ -13,8 +12,6 @@ print(s2)
 t=str.lower().replace(' ','')
 print(t[::-1])
 
-
-
 print(len(str))
 print(str.split(' '))
 print(str2)
@@ -23,7 +20,8 @@ print(str+str1) # Concatination
 print(str[-1])
 
 #Slicing
-#str[starting_index :ending_index] #ending index is not included
+#str[starting_index :ending_index] 
+#ending index is not included
 print(str[1:3]) # hi
 print(str[0:3]) # Thi
 print(str[1:]) # this is same as str[1:len(str)]
@@ -50,7 +48,6 @@ print(strFun)
 #print(firstname)
 #print("length of firstname is",len(firstname))
 
-
 #Conditional statements 
 #if-elif-else
 #indentation important
@@ -62,7 +59,6 @@ elif(age>13 and age<21):
     print("you are still teen, cant vote")
 else:
     print("Not eligble for voting")
-    
     
 #nesting
 age1 = 8
@@ -101,6 +97,3 @@ if(num1%7==0):
     print(num1,"is multiple of 7")
 else:
     print(num1,"is not multiple of 7")
-
-
-
