@@ -3,7 +3,8 @@
 #Stop: -1 is the stopping value. 
 #The loop will end before reaching -1.
 #Step: -1 is the step value. 
-#This means the loop will decrement by 1 on each iteration, moving in reverse order.
+#This means the loop will decrement by 1 on each iteration, 
+#moving in reverse order.
 
 from typing import List
 
