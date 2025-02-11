@@ -1,7 +1,7 @@
 class Account:
-    def __init__(self,balance,acc) -> None:
+    def __init__(self,balance,accountNumber) -> None:
         self.balance=balance
-        self.acc=acc
+        self.accountNumber=accountNumber
     
     #Debit method
     def debit(self,amount):
@@ -13,5 +13,5 @@ class Account:
         self.balance+=amount
         print("Rs.",amount,"was credited",self.balance,"is your balance")  
     
-acc= Account(10000,1234)
+acc = Account(10000,1234)
 acc.credit(68)

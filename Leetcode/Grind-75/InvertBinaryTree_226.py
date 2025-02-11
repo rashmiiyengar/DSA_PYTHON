@@ -1,4 +1,5 @@
 # Definition for a binary tree node.
+from typing import Optional
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -10,9 +11,9 @@ class Solution:
             return None
 
         root.left,root.right = root.right,root.left
-
         self.invertTree(root.left)
         self.invertTree(root.right)
-
         return root
     
+solution=Solution()
+solution.invertTree(2)

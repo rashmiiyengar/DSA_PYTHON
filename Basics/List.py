@@ -1,7 +1,7 @@
 #Lists is a built in data type that stores set of values
 #It can store elements of different types (integer,float,string,etc)
-# Strings are immutable (cant be changed)
-# Lists are mutable 
+#Strings are immutable (cant be changed)
+#Lists are mutable 
 
 marks=[20,22,24,28]
 students=["Joe","Smith","Ryan","Philip"]
@@ -13,9 +13,7 @@ print(len(marks))
 
 #List slicing
 #Similar to string slicing
-
-#list_name[starting_index:ending_index] #ending index is not included
-
+#List_name[starting_index:ending_index] #ending index is not included
 
 print(marks[1:3]) # is [22,24]
 print(marks[:3]) # is same as [0:3] [20,22,24]
@@ -51,7 +49,6 @@ print(tuple[3])
 print(tuple.index(2)) #returns index of first occurence
 print(tuple.count(3))  #counts total occurances
 
-
 #WAP to ask the user to enter names of their 3 favourite movies and store them in a list.
 """
 movies = input("Enter three movies of your choice: ")
@@ -73,7 +70,6 @@ movies1.append(input("enter movie 4:")) # this is also valid
 print(movies1)
 
 # WAP to check if a list contains a palindrome of elements 
-
 list=[1,2,2,1]
 copiedlist= list.copy()
 copiedlist.reverse()
@@ -87,7 +83,6 @@ else:
 
 studentsGrade =["A","B","C","A","B","B","A","A","D","C"]
 print(studentsGrade.count("A"))
- 
  
 #Store the above values in a list and sort them from "A" to "D"
 studentsGrade.sort()

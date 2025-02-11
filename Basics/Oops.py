@@ -1,11 +1,13 @@
-# functions reduces redundancy and improves reusablility
+# Functions reduces redundancy and improves reusablility
 # Object oriented programming
 class Student:
-    college="KIT" #class attribute
+    #Class attribute
+    college="KIT" 
     
-    #parameterised constructor
+    #Parameterised constructor
     def __init__(self,fullname,marks) -> None:
-        self.name = fullname #obj attribute , obj attribute has precedence over class attribute
+        #Obj attribute , Obj attribute has precedence over class attribute
+        self.name = fullname 
         self.marks=marks
         print("hello",self.name)
         pass
@@ -15,12 +17,10 @@ class Student:
         
     @staticmethod
     def hello():
-        print("th")
+        print("Static method")
 
 s= Student("rash",90)
 print(s.name,s.marks)
 print(s.college)
 s.createMethod()
 Student.hello()
-
- 
