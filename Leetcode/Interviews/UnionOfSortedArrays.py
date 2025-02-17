@@ -30,6 +30,6 @@ def union_sorted_arrays(arr1,arr2):
     return result
         
 
-arr1 = [1, 2, 4, 5, 6,7]
+arr1 = [1, 2, 4, 5, 6, 7]
 arr2 = [2, 3, 5, 7]
 print(union_sorted_arrays(arr1, arr2))
