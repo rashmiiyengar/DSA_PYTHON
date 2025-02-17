@@ -17,4 +17,4 @@ print(list)
 # print(sum_all)
 # print(sum_all-sum(nums))
 # for numbers starting from 0 to n-1 in array take n=len(nums)
-# for numbers startinmg from 1 to n-1 in array take n =len(nums)+1
+# for numbers starting from 1 to n-1 in array take n =len(nums)+1
