@@ -37,7 +37,7 @@ def display(head):
         elements.append(str(curr.val))
         curr=curr.next
     print(' -> '.join(elements))
-    display(Head)
+display(Head)
     
     
 #Search for a node value O(N)

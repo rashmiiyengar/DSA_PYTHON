@@ -1,7 +1,6 @@
 #rotate the array by one place
 #if given array is [1,2,3,4,5,6]
 #rotate it to [2,3,4,5,6,1]
-
 import sys
 def left_rotate_array_by_one_place(arr):
     if not arr:

@@ -28,6 +28,7 @@ def union_sorted_arrays(arr1,arr2):
         j+=1
          
     return result
+
         
 
 arr1 = [1, 2, 4, 5, 6, 7]
